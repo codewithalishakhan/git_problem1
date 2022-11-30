@@ -8,7 +8,7 @@ for (let i=1;i<num;i++){
         bag++;
     }
 }
-if(bag==0){
+if(bag==1){
     console.log("Yes")
 }else{
         console.log("No")
@@ -19,13 +19,13 @@ if(bag==0){
 
 for palindrome//
 
-
+str="alisha"
 a=str.split("");
 b=a.reverse("");
 c=b.join("");
 
 
-if(str==b){
+if(str==c){
 console.log("Yes");
 }else{
 console.log("No");
